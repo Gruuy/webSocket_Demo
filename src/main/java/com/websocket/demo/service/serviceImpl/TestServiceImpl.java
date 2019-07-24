@@ -13,6 +13,7 @@ public class TestServiceImpl implements TestService {
 
     @Override
     public String test() {
+        System.out.println("into test");
         return "test";
     }
 }
